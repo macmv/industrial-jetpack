@@ -105,7 +105,7 @@ local default_fuels = { -- sorted by preference
   { fuel_name = "processed-fuel", thrust = 1 },
   { fuel_name = "bio-fuel", thrust = 0.9 }, -- K2
   { fuel_name = "solid-fuel", thrust = 0.5 },
-  { fuel_name = "steam-cell", thrust = 0.4 },
+  { fuel_name = "steam-cell", thrust = 1.0 },
 }
 ---@type {[string]: true}
 Jetpack.space_tiles = {
